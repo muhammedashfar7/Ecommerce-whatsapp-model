@@ -11,10 +11,6 @@ layout: default
 	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
 	                        <div class="hero-cta">
 								<a class="button button-primary" href="#">Buy it now</a>
-								<div class="lights-toggle">
-									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
-								</div>
 							</div>
 						</div>
 						<div class="hero-media">
@@ -64,7 +60,7 @@ layout: default
                                     </div>
 								</div>
 								<div class="whatsapp-button">
-									<a class="whatsapp-order" href="https://wa.me/919496659631?text=Hello%20%F0%9F%91%8B%2C%0AI%20would%20like%20to%20buy%20your%20%0A%0A%2A%5B{{product.name | cgi_escape}}%5D%2A%0A%2A%E2%82%B9%5Bproduct-price%5D%2A%0A%0AKindly%20delivery%20my%20goods%20at%0A%2AAddress%20%3A%2A%0A%20%20%20%20_House%20Name%20%3A_%0A%20%20%20%20_Street%20Name%20%3A_%0A%20%20%20%20_Landmark%20%3A_%0A%20%20%20%20_Delivery%20Time%20%3A_%0A%20%20%20%20_Phone%20No%20%3A_%0A%0AThank%20you%20%E2%9D%A4%EF%B8%8F"><i class="fab fa-whatsapp"></i> Order via whatsapp</a>
+									<a class="whatsapp-order" href="https://wa.me/919496659631?text=Hello%20%F0%9F%91%8B%2C%0AI%20would%20like%20to%20buy%20your%20%0A%0A%2A%5B{{product.name | cgi_escape}}%5D%2A%0A%2A%E2%82%B9%5B{{product.price}}%5D%2A%0A%0AKindly%20delivery%20my%20goods%20at%0A%2AAddress%20%3A%2A%0A%20%20%20%20_House%20Name%20%3A_%0A%20%20%20%20_Street%20Name%20%3A_%0A%20%20%20%20_Landmark%20%3A_%0A%20%20%20%20_Delivery%20Time%20%3A_%0A%20%20%20%20_Phone%20No%20%3A_%0A%0AThank%20you%20%E2%9D%A4%EF%B8%8F"><i class="fab fa-whatsapp"></i> Order via whatsapp</a>
 								</div>
 							</div>
 							{% endfor %}
