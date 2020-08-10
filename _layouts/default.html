@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+{% include head.html %}
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        {% include header.html %}
+
+        <main>
+            {{content}}
+        </main>
+
+        {% include footer.html %}
+    </div>
+
+    {% include script.html %}
+</body>
+</html>
