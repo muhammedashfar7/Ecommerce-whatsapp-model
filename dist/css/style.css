@@ -1350,13 +1350,24 @@ label {
 	box-shadow: 0 4px 16px rgba(255, 255, 255, 0.35)
 }
 
-.button-primary {
+.button-primary-light {
 	color: #fff !important;
-	background-color: #535FD7
+	background: linear-gradient(40deg, rgba(180,58,79,1) 0%, rgba(253,171,29,1) 50%, rgba(253,216,89,1) 100%);
+	border-radius: 10px;
 }
 
-.button-primary:hover {
-	background: #5763d8
+.button-primary-dark {
+	color: #fff !important;
+	background: linear-gradient(40deg, rgba(121,17,181,1) 0%, rgba(50,41,182,1) 35%, rgba(0,212,255,1) 100%);
+	border-radius: 10px;
+}
+
+.button-primary-light:hover {
+	background: rgba(180,58,79,1)
+}
+
+.button-primary-dark:hover {
+	background: rgba(50,41,182,1)
 }
 
 .button-primary.button-shadow::before {
@@ -2176,11 +2187,23 @@ hr::after,
 	color: #000;
 }
 
-.product-price {
+.product-price-light {
     position: absolute;
     margin-top: 6px;
     margin-left: 6px;
-    background: linear-gradient(36deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+    background: linear-gradient(40deg, rgba(180,58,79,1) 0%, rgba(253,171,29,1) 50%, rgba(253,216,89,1) 100%);
+    padding: 0px 10px;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.product-price-dark {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 6px;
+    background: linear-gradient(40deg, rgba(121,17,181,1) 0%, rgba(50,41,182,1) 35%, rgba(0,212,255,1) 100%);
     padding: 0px 10px;
     font-size: 13px;
     color: #fff;
@@ -2233,11 +2256,26 @@ a.whatsapp-order {
 /*Gradient Text */
 .gradient-text {
     background-color: rgb(131,58,180);
-    background-image: linear-gradient(36deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-image: linear-gradient(40deg, rgba(180,58,79,1) 0%, rgba(253,171,29,1) 50%, rgba(253,216,89,1) 100%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+.gradient-text-dark {
+    background-color: rgb(131,58,180);
+    background-image: linear-gradient(40deg, rgba(121,17,181,1) 0%, rgba(50,41,182,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+} 
+
+.hero-media-image {
+    width: 450px;
 }
