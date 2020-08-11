@@ -355,7 +355,7 @@ button,
 input,
 select,
 textarea {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Sriracha', cursive;
 }
 
 a {
@@ -2216,6 +2216,7 @@ hr::after,
 	.whatsapp-order {
 		font-size: 11px;
 		padding: 1px;
+		font-weight: 100;
 	}
 	.product-title {
 		font-size: 13px;
