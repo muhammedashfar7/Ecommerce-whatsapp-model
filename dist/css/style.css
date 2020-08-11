@@ -1286,13 +1286,11 @@ label {
 
 .button {
 	display: inline-flex;
-	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 14px;
 	letter-spacing: 0px;
 	font-weight: 600;
 	line-height: 16px;
 	text-decoration: none !important;
-	text-transform: uppercase;
 	background-color: #E9EDF3;
 	color: #535FD7 !important;
 	border: none;
@@ -1939,7 +1937,7 @@ main {
 }
 
 .lights-off .asset-dark {
-	display: block
+	display: inline
 }
 
 .lights-off a {
@@ -2278,4 +2276,31 @@ a.whatsapp-order {
 
 .hero-media-image {
     width: 450px;
+}
+
+.header-logo-image {
+	height: 80px;
+}
+
+.footer-logo {
+	height: 80px;
+}
+
+.ftr-icon {
+	font-size: 25px;
+}
+a.ftr-icon {
+	color: #fff;
+}
+
+i.ftr-icon.fab.fa-facebook-square {
+    color: #8e81ff;
+}
+
+i.ftr-icon.fab.fa-instagram {
+    color: #ff6e6e;
+}
+
+i.ftr-icon.fab.fa-whatsapp {
+    color: #66ff95;
 }
