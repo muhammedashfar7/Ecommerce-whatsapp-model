@@ -1,0 +1,13 @@
+<div class="feature is-revealing">
+    <div class="product-image" style="background-image: url({{site.baseurl}}{{product.image}})">
+        <span class="product-price">₹ {{product.price}}</span>
+    </div>
+    <div class="feature-inner">
+        <div class="product-info">
+            <span class="product-title gradient-text">{{product.name | truncate: 16}}</span>
+        </div>
+    </div>
+    <div class="whatsapp-button">
+        {% include whatsapp-button.html %}
+    </div>
+</div>

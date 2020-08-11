@@ -1,6 +1,8 @@
 ---
 id: vanilla-cake
-name: Vanila Cake
-price: 20.00
-image: /dist/images/1.jpg
+name: Vanilla Cake
+price: 500.00
+image: /dist/images/vanilla.jpg
+delivary: true
 ---
+Description goes here.

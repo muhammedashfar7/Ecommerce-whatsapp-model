@@ -355,7 +355,7 @@ button,
 input,
 select,
 textarea {
-	font-family: "Heebo", sans-serif
+	font-family: 'Nunito', sans-serif;
 }
 
 a {
@@ -383,7 +383,7 @@ h6,
 .h6 {
 	clear: both;
 	color: #182538;
-	font-family: "IBM Plex Sans", sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-weight: 600
 }
 
@@ -1626,9 +1626,15 @@ label {
 }
 
 .feature {
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(0,52,102,0.11) !important;
+    padding: 8px;
+    border-radius: 13px;
+	box-shadow: 0px 2px 5px 0px rgba(0,52,102,0.11) !important;
+	background: #fff;
+}
+
+.lights-off .feature {
+	background: #303b4c;
+	box-shadow: 0px 2px 5px 0px rgba(7, 7, 7, 0.25) !important
 }
 
 .feature:last-of-type {
@@ -2182,6 +2188,10 @@ hr::after,
     font-weight: 600;
 }
 
+.lights-off .product-price {
+    color: #2c384a;
+}
+
 .whatsapp-order {
     background: #0dcf34;
     color: #fff;
@@ -2213,6 +2223,10 @@ hr::after,
 }
 a.whatsapp-order {
     text-decoration: none;
+}
+
+.lights-off .whatsapp-order {
+    color: #2c384a;
 }
 
 /*Gradient Text */

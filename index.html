@@ -50,19 +50,7 @@ layout: default
                         </div>
                         <div class="features-wrap">
 							{% for product in site.products %}
-                            <div class="feature is-revealing">
-								<div class="product-image" style="background-image: url({{site.baseurl}}/dist/images/1.jpg)">
-									<span class="product-price">$ {{product.price}}</span>
-								</div>
-                                <div class="feature-inner">
-                                    <div class="product-info">
-										<span class="product-title gradient-text">{{product.name}}</span>
-                                    </div>
-								</div>
-								<div class="whatsapp-button">
-									<a class="whatsapp-order" href="https://wa.me/919496659631?text=Hello%20%F0%9F%91%8B%2C%0AI%20would%20like%20to%20buy%20your%20%0A%0A%2A%5B{{product.name | cgi_escape}}%5D%2A%0A%2A%E2%82%B9%5B{{product.price}}%5D%2A%0A%0AKindly%20delivery%20my%20goods%20at%0A%2AAddress%20%3A%2A%0A%20%20%20%20_House%20Name%20%3A_%0A%20%20%20%20_Street%20Name%20%3A_%0A%20%20%20%20_Landmark%20%3A_%0A%20%20%20%20_Delivery%20Time%20%3A_%0A%20%20%20%20_Phone%20No%20%3A_%0A%0AThank%20you%20%E2%9D%A4%EF%B8%8F"><i class="fab fa-whatsapp"></i> Order via whatsapp</a>
-								</div>
-							</div>
+							{% include product-single.html %}
 							{% endfor %}
                         </div>
                     </div>

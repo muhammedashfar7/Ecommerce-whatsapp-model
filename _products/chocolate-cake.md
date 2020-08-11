@@ -1,6 +1,8 @@
 ---
 id: chocolate-cake
 name: Chocolate Cake
-price: 20.00
-image: /dist/images/1.jpg
+price: 700.00
+image: /dist/images/chocolate.jpg
+delivary: true
 ---
+Description goes here.

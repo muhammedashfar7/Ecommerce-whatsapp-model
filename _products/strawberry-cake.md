@@ -1,6 +1,8 @@
 ---
-id: Strawberry-cake
+id: strawberry-cake
 name: Strawberry Cake
-price: 20.00
-image: /dist/images/1.jpg
+price: 700.00
+image: /dist/images/strawberry.jpg
+delivary: true
 ---
+Description goes here.

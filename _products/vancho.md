@@ -1,6 +1,8 @@
 ---
 id: vancho
 name: Vancho
-price: 20.00
-image: /dist/images/1.jpg
+price: 750.00
+image: /dist/images/vancho.jpg
+delivary: true
 ---
+Description goes here.
